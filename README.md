@@ -1,4 +1,6 @@
-## dinner-rush
+## Dinner-Rush
+[![React](https://img.shields.io/badge/React-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-blue)](https://vitejs.dev/)
 
 ### Overview
 **dinner-rush** is a React/Vite application designed to assist families in planning their weekly meals. Users can create a meal plan, including both home-cooked meals and restaurant outings. 
