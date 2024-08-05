@@ -1,17 +1,17 @@
 // src/components/Navigation.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { pages } from '../utils/pages';
 
 function Navigation() {
   return (
     <nav>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
+        {pages.map((page) => (
+          <li key={page.path}>
+            <Link to={page.path}>{page.name}</Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
